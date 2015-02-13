@@ -1,0 +1,43 @@
+$text-color: #4f4f4f;
+$orange: #D7804A;
+$green: #75D9A9;
+
+body {
+	color: $text-color;
+	font: 12px Helvetica, sans-serif;
+	background-color: #fcfcfc;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	// flex-flow: row wrap;
+	
+	& > div {
+		
+	}
+
+}
+
+
+.parent {
+	display: flex;
+	background: $green;
+	height: 100%;
+
+	div {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+		background: $orange;
+
+		&:hover {
+			opacity: 0.5;
+			cursor: pointer;
+		}
+	}
+}
