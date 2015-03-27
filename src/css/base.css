@@ -4,24 +4,32 @@ body {
   background-color: #fcfcfc;
   height: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
+.container > div {
+  /*adaddads*/
+}
 
 .parent {
   display: flex;
   background: #75D9A9;
-  height: 100%; }
-  .parent div {
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    background: #D7804A; }
-    .parent div:hover {
-      opacity: 0.5;
-      cursor: pointer; }
+  height: 100%;
+}
+.parent div {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background: #D7804A;
+}
+.parent div:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=base.css.map */
